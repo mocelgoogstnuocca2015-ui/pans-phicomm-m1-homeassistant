@@ -1,0 +1,20 @@
+#ifndef M1_MICO_CONFIG_H
+#define M1_MICO_CONFIG_H
+
+/* 无已保存网络时启用 MiCO SoftAP 配网；凭据由系统参数区保存，不编入固件。 */
+#define MICO_WLAN_CONFIG_MODE CONFIG_MODE_SOFTAP
+#define M1_SOFTAP_SSID_PREFIX "M1-Setup-"
+#define MICO_WLAN_CONNECTION_ENABLE 1
+#define MICO_WLAN_AUTO_CONFIG 1
+#define MICO_CONFIG_EASYLINK_BTN_ENABLE 0
+#define MICO_CLI_ENABLE 0
+#define MICO_SYSTEM_DISCOVERY_ENABLE 0
+#define MICO_CONFIG_SERVER_ENABLE 1
+/* 手机连接 SoftAP 后可直接打开 http://设备网关/，无需记忆 8000 端口。 */
+#define MICO_CONFIG_SERVER_PORT 80
+/* 默认配置读取会回显 Wi-Fi 密码；公众版仅允许写入，不回显系统网络资料。 */
+#define MICO_CONFIG_SERVER_REPORT_SYSTEM_DATA 0
+#define MICO_WLAN_FORCE_OTA_ENABLE 0
+#define CONFIG_APP_DEBUG MICO_DEBUG_OFF
+
+#endif
