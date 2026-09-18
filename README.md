@@ -1,4 +1,6 @@
-# 斐讯 M1 · 本地配网与 Home Assistant 固件
+# 磐石工作室 · 斐讯 M1 本地配网与 Home Assistant 固件
+
+由 **磐石工作室** 维护，项目仓库：`pans-phicomm-m1-homeassistant`。
 
 让闲置的斐讯悟空 M1 继续使用：保留原机 Wi-Fi 模块、屏幕和传感器，用中文网页配置 Wi-Fi / MQTT，通过 Home Assistant 查看空气数据、调节亮度，并提供兼容 OTA 更新链路。
 
